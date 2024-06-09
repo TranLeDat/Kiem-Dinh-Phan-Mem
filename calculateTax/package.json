@@ -1,0 +1,25 @@
+{
+  "name": "danh-gia-kiem-dinh-phan-mem",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "homepage.js",
+  "scripts": {
+  "test": "mocha 'test/calculateTax.test.js'",
+  "coverage": "nyc npm test"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "jest": "^29.7.0",
+    "mocha": "^10.4.0",
+    "nyc": "^15.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "nyc": {
+    "include": ["F:/Vs code/Danh-Gia-Kiem-Dinh-Phan-Mem/calculateTax/calculateTax.js"],
+    "reporter": ["text", "html"]
+  }
+
+}
